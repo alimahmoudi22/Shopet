@@ -1,0 +1,59 @@
+/* *Yekan-Bakh* */
+
+@font-face {
+    font-family: "YekanBakh-Regular";
+    src: url("/Sources/Fonts/YekanBakh/YekanBakh-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "YekanBakh-SemiBold";
+    src: url("/Sources/Fonts/YekanBakh/YekanBakh-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "YekanBakh-Bold";
+    src: url("/Sources/Fonts/YekanBakh/YekanBakh-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "YekanBakh-Black";
+    src: url("/Sources/Fonts/YekanBakh/YekanBakh-Black.ttf") format("truetype");
+}
+
+/* *Peyda* */
+
+@font-face {
+    font-family: "Peyda-Regular";
+    src: url("/Sources/Fonts/Peyda/Peyda-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Peyda-Medium";
+    src: url("/Sources/Fonts/Peyda/Peyda-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Peyda-SemiBold";
+    src: url("/Sources/Fonts/Peyda/Peyda-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Peyda-Bold";
+    src: url("/Sources/Fonts/Peyda/Peyda-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Peyda-Black";
+    src: url("/Sources/Fonts/Peyda/Peyda-Black.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Peyda-ExtraBold";
+    src: url("/Sources/Fonts/Peyda/Peyda-ExtraBold.ttf") format("truetype");
+}
+
+/* Rokh* */
+
+@font-face {
+    font-family: "Rokh-ExtraBold";
+    src: url("/Sources/Fonts/Rokh/Rokh-ExtraBold.ttf") format("truetype");
+}
