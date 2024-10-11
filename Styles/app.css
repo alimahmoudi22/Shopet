@@ -1,0 +1,49 @@
+/* *Variables* */
+
+:root{
+    --primary_orange: rgba(247, 118, 61, 1);
+    --white: rgba(255, 255, 255, 1);
+}
+
+/* *First Setup* */
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "YekanBakh-Regular";
+     font-size: 1.6rem;
+     line-height: 1.5;
+}
+
+/* *component* */
+
+
+/* *reset* */
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* *header* */
+
+.off{
+    background-color: var(--primary_orange);
+    height: 6.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.off__title{
+    font-size: 2.2rem;
+    font-family: "YekanBakh-Bold";
+    color: var(--white);
+}
+.off__title span{
+    color: var(--primary_orange);
+    background-color: var(--white);
+    padding: 0 2rem;
+    border-radius: 3.2rem;
+}

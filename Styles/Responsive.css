@@ -23,6 +23,8 @@
 }
 
 @media screen and (max-width: 420px) {
-    
+    .off__title{
+        font-size: 1.6rem;
+    }
 }
 
