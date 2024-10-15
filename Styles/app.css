@@ -247,7 +247,7 @@ a{
 .number-wrapper{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: .8rem;
     font-family: "YekanBakh-Bold";
     font-size: 2.2rem;
 }

@@ -41,6 +41,13 @@
     .header__icons{
         gap: 2.4rem;
     }
+    .header__link{
+        font-size: 2rem;
+        margin-left: 2.4rem;
+    }
+    .number-wrapper{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -53,6 +60,13 @@
     .header__icons{
         gap: 3rem;
     }
+    .header__link{
+        font-size: 1.8rem;
+        margin-left: 1.5rem;
+    }
+    .number-wrapper{
+        font-size: 1.8rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -64,6 +78,9 @@
     }
     .header__menu-btn{
         display: flex;
+    }
+    .header__down{
+        display: none;
     }
 }
 
