@@ -222,3 +222,35 @@ a{
 .user-icon{
     display: block;
 }
+
+/* **header down** */
+.header__down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__link{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    font-family: "YekanBakh-Bold";
+    font-size: 2.2rem;
+    color: black;
+    gap: .5rem;
+}
+.number-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: "YekanBakh-Bold";
+    font-size: 2.2rem;
+}
+.number-wrapper span{
+    color: var(--primary_orange);
+}
