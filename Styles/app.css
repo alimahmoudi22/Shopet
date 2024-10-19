@@ -1,7 +1,7 @@
 /* *Variables* */
 
 :root{
-    --primary_orange: rgba(247, 118, 61, 1);
+    --primary_orange: rgb(247, 118, 61);
     --white: rgba(255, 255, 255, 1);
     --purple: rgba(81, 36, 196, 1);
 }
@@ -243,6 +243,10 @@ a{
     font-size: 2.2rem;
     color: black;
     gap: .5rem;
+    transition: all 150ms ease-in;
+}
+.header__link:hover{
+    color: var(--primary_orange);
 }
 .number-wrapper{
     display: flex;
@@ -252,5 +256,110 @@ a{
     font-size: 2.2rem;
 }
 .number-wrapper span{
+    color: var(--primary_orange);
+}
+
+/* **mobile menu** */
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30rem;
+    height: 100vh;
+    background-color: var(--white);
+    padding: 9.4rem 2.4rem 0 2.4rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -7px 12px 41px -23px rgba(0,0,0,0.2);
+    transition: all 200ms ease-in;
+    transform: translateX(30rem);
+}
+.mobile-menu--active{
+    transform: translateX(0rem);
+}
+.mobile__logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.mobile__logo svg{
+    cursor: pointer;
+}
+.mobile__search-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 4rem;
+    position: relative;
+}
+.mobile__search-box input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgba(242, 242, 242, 1);
+    height: 5.5rem;
+    border-radius: 5rem;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    font-family: "YekanBakh-SemiBold";
+    color: rgba(144, 144, 144, 1);
+}
+.mobile__search-box input::placeholder{
+    font-size: 1.6rem;
+    font-family: "YekanBakh-SemiBold";
+    color: rgba(144, 144, 144, 1);
+}
+.mobile__search-box img{
+    position: absolute;
+    background-color: var(--purple);
+    left: 1rem;
+    padding: .4rem;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.mobile__search-box::after{
+    content: "";
+    width: 100%;
+    height: .05rem;
+    position: absolute;
+    top: 7rem;
+    background-color: var(--primary_orange);
+    /* opacity: .2; */
+}
+.mobile__details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.mobile__esalat{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.mobile__ersal{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.mobile__list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 2.6rem;
+}
+.mobile__link{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    font-family: "YekanBakh-SemiBold";
+    font-size: 1.8rem;
+    color: black;
+    gap: .5rem;
+    transition: all 150ms ease-in;
+}
+.mobile__link:hover{
     color: var(--primary_orange);
 }
