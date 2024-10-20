@@ -273,6 +273,7 @@ a{
     box-shadow: -7px 12px 41px -23px rgba(0,0,0,0.2);
     transition: all 200ms ease-in;
     transform: translateX(30rem);
+    z-index: 2;
 }
 .mobile-menu--active{
     transform: translateX(0rem);
@@ -362,4 +363,102 @@ a{
 }
 .mobile__link:hover{
     color: var(--primary_orange);
+}
+
+/* **main** */
+.main{
+    margin-top: 4rem;
+}
+
+/* **banner** */
+.banner{
+    
+}
+.banner__wrapper{
+    background: rgba(224, 245, 255, 1);
+    border-radius: 4.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 16rem 1rem 11rem;
+    position: relative;
+    overflow: hidden;
+}
+.banner__content{
+    display: block;
+}
+.banner__title{
+    font-family: "Peyda-SemiBold";
+    font-size: 3.6rem;
+    line-height: 1.8;
+}
+.banner__title span{
+    font-family: "Peyda-Black";
+}
+.banner__text{
+    font-size: 15.09px;
+    max-width: 33rem;
+    line-height: 1.8;
+    margin-top: 1rem;
+}
+.banner__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13.8rem;
+    height: 4.5rem;
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 5.4rem;
+    padding: 0 1rem 0 .6rem;
+    font-family: "YekanBakh-SemiBold";
+    font-size: 2rem;
+    margin-top: 2.4rem;
+}
+.banner__btn div{
+    background-color: var(--white);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.banner__image{
+    display: block;
+}
+.banner__off{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rokh-ExtraBold";
+    font-size: 3.1rem;
+    top: 5rem;
+    left: 50rem;
+}
+.banner__vector1{
+    position: absolute;
+    left: 0;
+    top: 10rem;
+}
+.banner__vector2{
+    position: absolute;
+    bottom: -.8rem;
+    right: 38rem;
+}
+.banner__vector3{
+    position: absolute;
+    right: 0;
+    top: 6rem;
+}
+.banner__vector4{
+    position: absolute;
+    bottom: .5rem;
+    right: 56rem;
+}
+.banner__vector5{
+    position: absolute;
+    left: 2.2rem;
+    top: 7.6rem;
 }

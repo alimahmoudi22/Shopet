@@ -9,5 +9,3 @@ headerBtn.addEventListener("click",() => {
 mobileBtn.addEventListener("click",() => {
     mobileMenu.classList.remove("mobile-menu--active");
 });
-
-// **menu link hover**
