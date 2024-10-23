@@ -11,6 +11,18 @@
     .header__icons{
         gap: 2.8rem;
     }
+    .banner__wrapper{
+        padding-right: 12rem;
+    }
+    .banner__vector2{
+        right: 16rem;
+    }
+    .banner__vector4{
+        right: 37rem;
+    }
+    .categorie{
+        max-width: 35.4rem;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -48,6 +60,14 @@
     .number-wrapper{
         font-size: 2rem;
     }
+    .banner{
+        display: none;
+    }
+    .categorie{
+        max-width: 39.2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -67,6 +87,12 @@
     .number-wrapper{
         font-size: 1.8rem;
     }
+    .categorie{
+        max-width: 33rem;
+    }
+    .categorie__title p{
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -82,10 +108,42 @@
     .header__down{
         display: none;
     }
+    .categorie{
+        max-width: 24rem;
+        overflow: hidden;
+    }
+    .categorie__title img{
+        display: block;
+        width: 4.8rem;
+    }
+    .categorie__go{
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+    .categorie__wrapper{
+        padding-right: 1.4rem;
+        padding-left: 1.4rem;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
-  
+    .categorie{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .categorie__wrapper{
+        padding-right: 2rem;
+        padding-left: 3rem;
+    }
+    .categorie__go{
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+    .categorie__title img{
+        display: block;
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 480px) {
