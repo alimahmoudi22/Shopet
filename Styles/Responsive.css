@@ -23,6 +23,12 @@
     .categorie{
         max-width: 35.4rem;
     }
+    .smallBanner__picture2{
+        display: none;
+    }
+    .smallBanner__picture3{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px) {

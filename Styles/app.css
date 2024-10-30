@@ -641,3 +641,30 @@ a{
    background: rgba(247, 118, 61, 1) !important;
    border-radius: 3.1rem !important;
 }
+
+/* **Small Banner** */
+.smallBanner{
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.smallBanner__wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.smallBanner__wrapper a{
+    width: 100%;
+}
+.smallBanner__wrapper a img{
+    width: 100%;
+}
+.smallBanner__picture2{
+    position: absolute;
+    left: 46rem;
+    bottom: -5rem;
+}
+.smallBanner__picture3{
+    position: absolute;
+    left: 15rem;
+    top: -5rem;
+}
