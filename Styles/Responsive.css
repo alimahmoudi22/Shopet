@@ -141,7 +141,12 @@
         font-size: 1.8rem;
 
     }
-
+    .smallBanner{
+        display: none;
+    }
+    .foods__wrapper{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 576px) {

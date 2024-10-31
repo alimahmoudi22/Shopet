@@ -668,3 +668,96 @@ a{
     left: 15rem;
     top: -5rem;
 }
+
+/* ** Foods** */
+.foods{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.foods__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.food{
+    max-width: 29.1rem;
+    width: 100%;
+    height: 41.5rem;
+    background: rgba(255, 154, 179, 1);
+    border-radius: 2.5rem;
+    padding: 5rem 4rem 4rem 2rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.food__title{
+    font-family: "YekanBakh-Bold";
+    font-size: 2rem;
+    color: var(--white);
+}
+.food__btn{
+    display: flex;
+    align-items: center;
+    background: rgba(231, 114, 145, 1);
+    width:  10rem;
+    height: 3rem;
+    border-radius: 3.5rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+}
+.food__btn p{
+    font-family: "YekanBakh-Bold";
+    color: var(--white);
+    font-size: 1.3rem;
+    margin-left: 1.2rem;
+}
+.food__svg{
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--white);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.food__vector1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.food__vector2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.food__picture{
+    right: 2rem !important;
+}
+.food--green{
+    background: rgba(100, 137, 88, 1);
+}
+.food--green .food__btn{
+    background: rgba(136, 189, 136, 1);
+}
+.food--orange{
+    background: rgba(236, 138, 60, 1);
+}
+.food--orange .food__btn{
+    background: rgba(204, 101, 19, 1);
+}
+.food--orange .food__picture{
+    bottom: 2rem;
+    right: 4.6rem !important;
+}
+.food--purple{
+    background: rgba(175, 86, 198, 1);
+}
+.food--purple .food__btn{
+    background: rgba(208, 134, 227, 1);
+}
