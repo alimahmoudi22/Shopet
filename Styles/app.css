@@ -671,8 +671,7 @@ a{
 
 /* ** Foods** */
 .foods{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 6rem;
 }
 .foods__wrapper{
     display: flex;
@@ -760,4 +759,119 @@ a{
 }
 .food--purple .food__btn{
     background: rgba(208, 134, 227, 1);
+}
+
+/* ** Tools ** */
+
+.tools{
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.tools__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tools__main {
+    background-image: url("../Sources/Images/main/tools/Untitled%20design-23%201.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    width: 35.8rem;
+    height: 77.6rem;
+    text-align: center;
+    padding-top: 12rem;
+    border-radius: 1.9rem;
+    position: relative;
+
+}
+
+.tools__main::before {
+    content: "";
+    width: 100%; 
+    height: 100%; 
+    border-radius: inherit;
+    background: rgba(167, 204, 253, 0.33);
+    border: 1.75px dashed rgba(163, 201, 253, 1);
+    transform: rotate(-4.2deg);
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+}
+
+.tools__main h5{
+    font-family: "Peyda-Bold";
+    font-size: 30.12px;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+.tools__main p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.tools__main p a{
+    font-family: "Peyda-SemiBold";
+    font-size: 28.18px;
+    color: #000;
+}
+.tools__products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 68%;
+}
+.tools__product{
+    width: 26.2rem;
+    height: 39.7rem;
+    border: 1.53px dashed rgba(226, 226, 226, 1);
+    border-radius: 1.13rem;
+    padding: 0 3rem;
+    padding-bottom: 1.6rem;
+    margin-bottom: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tools__img{
+    max-height: 19.5rem;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tools__product h6{
+    font-family: "YekanBakh-Bold";
+    font-size: 2rem;
+    color: rgba(102, 102, 102, 1);
+}
+.tools__price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.tools__price p{
+    font-family: "YekanBakh-SemiBold";
+    font-size: 2.1rem;
+    color: var(--green);
+    margin-top: 1.4rem;
+}
+.tools__shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(81, 155, 194, 1);
+    padding: 1rem 1.4rem;
+    border-radius: .765rem;
+    margin-top: 1.6rem;
+    width: 100%;
+    cursor: pointer;
+}
+.tools__shop p{
+    color: var(--white);
 }

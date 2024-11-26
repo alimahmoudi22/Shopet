@@ -29,6 +29,9 @@
     .smallBanner__picture3{
         display: none;
     }
+    .tools__products{
+        width: 58%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -74,6 +77,12 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .tools__main {
+        width: 30.8rem;
+    }
+    .tools__products{
+        width: 58%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -99,6 +108,18 @@
     .categorie__title p{
         font-size: 1.6rem;
     }
+    .tools__wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tools__main {
+        margin-bottom: 6rem;
+    }
+    .tools__products{
+        width: 100%;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -147,6 +168,9 @@
     .foods__wrapper{
         flex-direction: column;
     }
+    .tools__product{
+        width: 25.2rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -166,6 +190,9 @@
         display: block;
         width: auto;
     }
+    .tools__products{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -175,6 +202,9 @@
 @media screen and (max-width: 420px) {
     .off__title{
         font-size: 1.6rem;
+    }
+    .tools__main{
+        width: 80%;
     }
 }
 
